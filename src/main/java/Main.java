@@ -1,10 +1,23 @@
+/**
+ * Representa el codigo principal de ejecución
+ * Importa las librerias pertinentes
+ * @author Andrés Castro
+ */
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
+    /**
+     * La clase principal de ejecución del código, que interactua con el usuario, para ver, ordenar y filtrar las
+     * canciones y crear playlist
+     * @param args
+     */
     public static void main(String[] args) {
+
         int opcion =0, opcion2=0, opcion3=0;
+
         MusicLibrary library = new MusicLibrary(new ArrayList<>()) {};
+
         ArrayList<Playlist> playlists = new ArrayList<>();
 
         Song song1 = new Song("Un Siglo Sin Ti",1,2003,4.41f,"Pop","♩♪♫♬♭♮♯","Esta canción fue compuesta por el maestro Franco de Vita e interpretada por Chayanne");
