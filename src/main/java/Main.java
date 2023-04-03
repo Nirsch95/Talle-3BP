@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class Main {
     /**
-     * La clase principal de ejecución del código, que interactua con el usuario, para ver, ordenar y filtrar las
+     * La clase principal de ejecución del código, que interactua con el usuario para ver, ordenar y filtrar las
      * canciones y crear playlist
      * @param args
      */
